@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check my Portfolio | Resume CV</title>
+    <!-- google fonts  -->
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+    </style>
+    <!-- font-awesome link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- flowbite cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"
+      rel="stylesheet"
+    />
+    <!-- favicon link  -->
+    <link
+      rel="shortcut icon"
+      href="../Assests/myimage.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="dark:bg-gray-900">
+    <!-- nav start  -->
+
+    <nav
+      class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600"
+    >
+      <div
+        class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+      >
+        <a href="#Home" class="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="../Assests/myimage.png" class="h-12" alt="Flowbite Logo" />
+          <span
+            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+            >Portfolio</span
+          >
+        </a>
+        <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
+          <button
+            type="button"
+            class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-4 py-2 text-center me-2 mb-2"
+          >
+            Resume <i class="fa-solid fa-download fa-lg"></i>
+          </button>
+          <button
+            data-collapse-toggle="navbar-sticky"
+            type="button"
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky"
+            aria-expanded="false"
+          >
+            <span class="sr-only">Open main menu</span>
+            <svg
+              class="w-5 h-5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 17 14"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M1 1h15M1 7h15M1 13h15"
+              />
+            </svg>
+          </button>
+        </div>
+        <div
+          class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+          id="navbar-sticky"
+        >
+          <ul
+            class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+          >
+            <li>
+              <a
+                href="#Home"
+                class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Skills"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Project"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Project</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Experience"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Experience</a
+              >
+            </li>
+            <li>
+              <a
+                href="#Contact"
+                class="block py-2 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav start  -->
+
+    <!-- home start  -->
+    <h2 class="text-4xl font-extrabold text-green-600 m-6" id="Home">
+      Welcome
+    </h2>
+    <main class="mt-20 block md:flex md:justify-between md:ml-28">
+      <h2 class="text-4xl font-extrabold text-green-600 ml-7 md:hidden">
+        Welcome
+      </h2>
+      <div class="ml-8">
+        <h1
+          class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
+        >
+          Hi,I'm<span class="text-blue-600 dark:text-yellow-400">
+            Shaik Nizamuddin</span
+          >
+        </h1>
+        <p
+          class="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400"
+        >
+          Web Developer in Java & React, I build some industry ready projects
+          Self-independent,<br />
+          reliable and friendly individual who works hard to achieve my goals.
+          <br />
+          Adaptable quickly and organized well. Interested in learning the
+          latest web <br />
+          &software technologies quickly.Able to work well in teams as well as
+          individually. <br />
+          My future goal is to build the application help to end billion users.
+        </p>
+
+        <a href="">
+          <button
+            type="button"
+            class="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2 mt-4"
+          >
+            View Resume <i class="fa-solid fa-eye ml-1"></i>
+          </button>
+        </a>
+
+        <figure class="max-w-screen-md mx-auto text-center">
+          <svg
+            class="w-10 h-10 mx-auto mb-3 text-gray-400 dark:text-gray-600"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            viewBox="0 0 18 14"
+          >
+            <path
+              d="M6 0H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3H2a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Zm10 0h-4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h4v1a3 3 0 0 1-3 3h-1a1 1 0 0 0 0 2h1a5.006 5.006 0 0 0 5-5V2a2 2 0 0 0-2-2Z"
+            />
+          </svg>
+          <blockquote>
+            <p
+              class="text-2xl italic font-medium text-gray-900 dark:text-white"
+            >
+              "Measuring
+              <span class="text-blue-600 dark:text-red-500"
+                >programming progress</span
+              >
+              by lines like Measuring
+              <span class="text-blue-600 dark:text-grey-500"
+                >aircraft building</span
+              >
+              progressby weight."
+            </p>
+          </blockquote>
+          <figcaption
+            class="flex items-center justify-center mt-6 space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              class="w-6 h-6 rounded-full"
+              src="https://m.economictimes.com/thumb/msid-104763154,width-1200,height-1200,resizemode-4,imgsize-267720/bill-gates-5-frugal-habits-of-the-billionaire-you-may-know.jpg"
+              alt="bill gates image"
+            />
+            <div
+              class="flex items-center divide-x-2 rtl:divide-x-reverse divide-gray-500 dark:divide-gray-700"
+            >
+              <cite class="pe-3 font-medium text-gray-900 dark:text-white"
+                >Bill Gates</cite
+              >
+            </div>
+          </figcaption>
+        </figure>
+      </div>
+      <div>
+        <img
+          class="rounded-full w-96 h-96 md:mr-28"
+          src="../Assests/mypro.png"
+          alt="image description"
+        />
+      </div>
+    </main>
+    <!-- home end  -->
+
+    <!-- skills start -->
+    <h2 class="text-4xl font-extrabold text-green-600 m-6" id="Skills"></h2>
+    <section class="mt-28">
+      <h2
+        class="text-4xl font-extrabold ml-7 text-center mb-5 text-blue-400 underline decoration-1"
+      >
+        Skills
+      </h2>
+      <main>
+        <div>
+          <div
+            id="tooltip-jese"
+            role="tooltip"
+            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+          >
+            Jese Leos
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <img
+            data-tooltip-target="tooltip-jese"
+            class="w-10 h-10 rounded"
+            src="https://w7.pngwing.com/pngs/79/518/png-transparent-js-react-js-logo-react-react-native-logos-icon-thumbnail.png"
+            alt="Medium avatar"
+          />
+        </div>
+        <div>
+          <div
+            id="tooltip-roberta"
+            role="tooltip"
+            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+          >
+            Roberta Casas
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <img
+            data-tooltip-target="tooltip-roberta"
+            class="w-10 h-10 rounded"
+            src="/docs/images/people/profile-picture-4.jpg"
+            alt="Medium avatar"
+          />
+        </div>
+        <div>
+          <div
+            id="tooltip-bonnie"
+            role="tooltip"
+            class="absolute z-10 invisible inline-block px-3 py-2 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700"
+          >
+            Bonnie Green
+            <div class="tooltip-arrow" data-popper-arrow></div>
+          </div>
+          <img
+            data-tooltip-target="tooltip-bonnie"
+            class="w-10 h-10 rounded"
+            src="/docs/images/people/profile-picture-3.jpg"
+            alt="Medium avatar"
+          />
+        </div>
+      </main>
+      <main></main>
+    </section>
+    <!-- skills end -->
+
+    <!-- project start  -->
+
+    <h2 class="text-4xl font-extrabold text-green-600 ml-7" id="Project"></h2>
+    <main class="mt-24">
+      <h2
+        class="text-4xl font-extrabold ml-7 text-center mb-5 text-blue-400 underline decoration-1"
+      >
+        Projects
+      </h2>
+      <!-- other diev  -->
+
+      <section class="ml-14 md:ml-28">
+        <div
+          class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        >
+          <a href="#">
+            <img
+              class="rounded-t-lg"
+              src="https://crio-directus-assets.s3.ap-south-1.amazonaws.com/bcf8d7c1-09ec-40d6-9e8a-1047648e7e9f.png"
+              alt=""
+            />
+          </a>
+          <div class="p-5">
+            <a href="#">
+              <h5
+                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+              >
+                Noteworthy technology acquisitions 2021
+              </h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Here are the biggest enterprise technology acquisitions of 2021 so
+              far, in reverse chronological order.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Read more
+              <svg
+                class="rtl:rotate-180 w-3.5 h-3.5 ms-2"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 14 10"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 5h12m0 0L9 1m4 4L9 9"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- project end  -->
+
+    <!-- Experience start -->
+    <h2 class="text-4xl font-extrabold text-green-600 m-6" id="Experience">  
+    </h2>
+    <section class=" mt-36">
+      <h2 class="text-4xl font-extrabold ml-7 text-center mb-5 text-blue-400 underline decoration-1" > Experience </h2>
+      <main class="ml-14 md:ml-28">
+        <ol class="relative border-s border-gray-200 dark:border-gray-700">
+          <li class="mb-10 ms-6">
+            <span
+              class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+            >
+              <svg
+                class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                />
+              </svg>
+            </span>
+            <h3
+              class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              Flowbite Application UI v2.0.0
+              <span
+                class="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3"
+                >Latest</span
+              >
+            </h3>
+            <time
+              class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+              >Released on January 13th, 2022</time
+            >
+            <p
+              class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"
+            >
+              Get access to over 20+ pages including a dashboard layout, charts,
+              kanban board, calendar, and pre-order E-commerce & Marketing
+              pages.
+            </p>
+            <a
+              href="#"
+              class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-100 focus:text-blue-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700"
+              ><svg
+                class="w-3.5 h-3.5 me-2.5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z"
+                />
+                <path
+                  d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"
+                />
+              </svg>
+              Download ZIP</a
+            >
+          </li>
+          <li class="mb-10 ms-6">
+            <span
+              class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+            >
+              <svg
+                class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                />
+              </svg>
+            </span>
+            <h3
+              class="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              Flowbite Figma v1.3.0
+            </h3>
+            <time
+              class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+              >Released on December 7th, 2021</time
+            >
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              All of the pages and components are first designed in Figma and we
+              keep a parity between the two versions even as we update the
+              project.
+            </p>
+          </li>
+          <li class="ms-6">
+            <span
+              class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
+            >
+              <svg
+                class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 20 20"
+              >
+                <path
+                  d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+                />
+              </svg>
+            </span>
+            <h3
+              class="mb-1 text-lg font-semibold text-gray-900 dark:text-white"
+            >
+              Flowbite Library v1.2.2
+            </h3>
+            <time
+              class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500"
+              >Released on December 2nd, 2021</time
+            >
+            <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+              Get started with dozens of web components and interactive elements
+              built on top of Tailwind CSS.
+            </p>
+          </li>
+        </ol>
+      </main>
+      <main></main>
+    </section>
+    <!-- Experience end -->
+
+    <!-- contact us start  -->
+    <h2 class="text-4xl font-extrabold dark:text-white m-10" id="Contact"></h2>
+    <main class="mt-40">
+      <h2 class="text-4xl font-extrabold ml-7 text-center mb-5 text-blue-400 underline decoration-1" > Contact Me </h2>
+      <form class="m-10">
+        <div class="grid gap-6 mb-6 md:grid-cols-2">
+          <div>
+            <label
+              for="first_name"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >First name</label
+            >
+            <input
+              type="text"
+              id="first_name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="John"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="last_name"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Last name</label
+            >
+            <input
+              type="text"
+              id="last_name"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Doe"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="company"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Company</label
+            >
+            <input
+              type="text"
+              id="company"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Flowbite"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="phone"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Phone number</label
+            >
+            <input
+              type="tel"
+              id="phone"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="123-45-678"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="website"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Website URL</label
+            >
+            <input
+              type="url"
+              id="website"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="flowbite.com"
+              required
+            />
+          </div>
+          <div>
+            <label
+              for="visitors"
+              class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+              >Unique visitors (per month)</label
+            >
+            <input
+              type="number"
+              id="visitors"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder=""
+              required
+            />
+          </div>
+        </div>
+        <div class="mb-6">
+          <label
+            for="email"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Email address</label
+          >
+          <input
+            type="email"
+            id="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="john.doe@company.com"
+            required
+          />
+        </div>
+        <div class="mb-6">
+          <label
+            for="password"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="•••••••••"
+            required
+          />
+        </div>
+        <div class="mb-6">
+          <label
+            for="confirm_password"
+            class="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >Confirm password</label
+          >
+          <input
+            type="password"
+            id="confirm_password"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            placeholder="•••••••••"
+            required
+          />
+        </div>
+        <div class="flex items-start mb-6">
+          <div class="flex items-center h-5">
+            <input
+              id="remember"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800"
+              required
+            />
+          </div>
+          <label
+            for="remember"
+            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >I agree with the
+            <a href="#" class="text-blue-600 hover:underline dark:text-blue-500"
+              >terms and conditions</a
+            >.</label
+          >
+        </div>
+        <button
+          type="submit"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Submit
+        </button>
+      </form>
+    </main>
+    <!-- contact us end  -->
+
+    <!-- footer start  -->
+
+    <footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+      <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+        <div class="sm:flex sm:items-center sm:justify-between">
+          <a
+            href="#"
+            class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+          >
+            <img src="../Assests/myimage.png" class="h-8" alt="Flowbite Logo" />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Portfolio</span
+            >
+          </a>
+          <ul
+            class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
+          >
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">About</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6"
+                >Privacy Policy</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+            </li>
+            <li>
+              <a href="#" class="hover:underline">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <hr
+          class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+        />
+        <span
+          class="block text-sm text-gray-500 sm:text-center dark:text-gray-400"
+          >© 2024 <a href="#" class="hover:underline">Nizamuddin™</a>. All
+          Rights Reserved.</span
+        >
+      </div>
+    </footer>
+
+    <!-- footer end  -->
+
+    <!-- flowbite link js  -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+  </body>
+</html>
